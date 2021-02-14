@@ -1,0 +1,35 @@
+Local Machine:
+================
+
+Install Flask and other relevant packages
+pip install Flask==1.1.1
+pip install itsdangerous==1.1.0
+pip install Jinja2==2.10.1
+
+
+1. Creating a satisfactory model
+2. Deploying model and its relevant objects using Pickle
+3. Created HTML form to get the inputs from the user
+4. Created Flask app (app.py) to accept input from the user, perform preprocessing and supply the same to the model for prediction. Post that display the output dynamically in the form
+
+
+To make it publically available
+=================================
+Platform: 
+    a. Heroku (Cloud Service provider for Application and Web Server)
+    b. GitHub (Code Repository and CI/CD)
+    
+1. Create a new repository in Github and uploaded relevant objects
+    a. templates folder
+    b. procfile
+    c. ProfitPredictor.pkl
+    d. StateEncoder.pkl
+    e. app.py
+    f. requirements.txt
+    
+2. Create an app in Heroku
+    Scroll Down and Search for Github Connect.
+    Login to Github in the popup introduced by Heroku for account linking
+    Search for the relevant repository
+    Click on Deploy Branch
+    
